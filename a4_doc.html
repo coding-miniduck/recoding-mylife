@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({            
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}            
+        });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
     <link href='a4_style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -11,7 +18,7 @@
             <div class="phead">
                 <table>
                     <tr>
-                        <td>테일러 급수</td>
+                        <td>테일러 급수 $\frac{2}{4} = \frac{1}{2}$</td>
                         <td></td>
                     </tr>
                 </table>
@@ -21,17 +28,28 @@
                     <tr>
                         <td>1. 정의</td>
                         <td>(중심 x0의 멱급수) = 수식1 수식2 <br>
-                            매끄러운 함수 f &lt;=&gt; f는 무한법 미분가능하다.
-
+                            매끄러운 함수 f &lt;=&gt; f는 무한법 미분가능하다. <br>
+                            매끄러운 함수 f: R->R, 수식3가 주어질때 <br>
+                            f의 테일러 급수는 다음과 같은 멱급수 <br>
+                            수식4[3] <br>
+                            특히 (a=0)일 때의 테일러 급수를 매클로린 급수라 부른다.
                         </td>
                     </tr>
                     <tr>
                         <td>2. 대표 예[1]</td>
-                        <td>4</td>
+                        <td>수식5 수식6 <br>
+                            수식7 수식8 <br>
+                            수식9 수식10 <br>
+                        </td>
                     </tr>
                     <tr>
                         <td>3. 유용성</td>
-                        <td>6</td>
+                        <td>
+                            <ul>
+                                <li>근사값 구하기가 가능해짐 ex) 수식11</li>
+                                <li>분석에 용이함</li>
+                            </ul>
+                        </td>
                     </tr>
                 </table>
             </div>
