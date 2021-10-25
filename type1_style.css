@@ -1,18 +1,38 @@
-p{
-    color: red;
-    width: 500px;
+*{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.page{
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 3cm;
+    margin: 1cm auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     border: 1px solid black;
 }
 
-html{
-    font-size: 10px;
-    background-color: rgb(233, 207, 172);
+
+@page{
+    size: A4 portrait; /*landscape is horizontal*/
+    margin: 0;
 }
 
-body{
-    width: 600px;
-    margin: 0 auto;
-    background-color: darkgray;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+@media print{
+    .page{
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
 }
