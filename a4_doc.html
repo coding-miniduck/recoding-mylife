@@ -2,15 +2,18 @@
 <html lang="kor">
 <head>
     <meta charset="UTF-8">
+    
     <title>Document</title>
+    
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({            
             tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}            
         });
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
+    
     <link href='a4_style.css' rel='stylesheet' type='text/css'>
+    
 </head>
 <body>
     <div class="book">
@@ -18,8 +21,23 @@
             <div class="phead">
                 <table>
                     <tr>
-                        <td>테일러 급수 $\frac{2}{4} = \frac{1}{2}$</td>
-                        <td></td>
+                        <td id=ptitle>테일러 급수 </td>
+                        <td>
+                            <table id=info>
+                                <tr>
+                                    <td>date</td>
+                                    <td>2021-10-20</td>
+                                </tr>
+                                <tr>
+                                    <td>author</td>
+                                    <td>2630 정승민</td>
+                                </tr>
+                                <tr>
+                                    <td>num</td>
+                                    <td>123020</td>
+                                </tr>
+                            </table>
+                        </td>
                     </tr>
                 </table>
             </div>
@@ -27,9 +45,9 @@
                 <table>
                     <tr>
                         <td>1. 정의</td>
-                        <td>(중심 x0의 멱급수) = 수식1 수식2 <br>
-                            매끄러운 함수 f &lt;=&gt; f는 무한법 미분가능하다. <br>
-                            매끄러운 함수 f: R->R, 수식3가 주어질때 <br>
+                        <td>(중심 $x_0$의 멱급수) $ = \sum_{n=0}^{\infty} a_n(x-x_0)^{n}$  $(x_0, a_0, a_1, a_2, \dots \in \mathbb{K}, \mathbb{K} 는 \mathbb{R} 혹은 \mathbb{C})$<sup>[2]</sup> <br>
+                            매끄러운 함수 $f \Leftrightarrow f$는 무한법 미분가능하다. <br>
+                            매끄러운 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$, 수식3가 주어질때 <br>
                             f의 테일러 급수는 다음과 같은 멱급수 <br>
                             수식4[3] <br>
                             특히 (a=0)일 때의 테일러 급수를 매클로린 급수라 부른다.
@@ -37,7 +55,7 @@
                     </tr>
                     <tr>
                         <td>2. 대표 예[1]</td>
-                        <td>수식5 수식6 <br>
+                        <td>$\frac{1}{1-x} = \sum_{n=0}^{\infty} \frac{f^{(n)}(x)}{n!}(x-a)^{n}$ 수식6 <br>
                             수식7 수식8 <br>
                             수식9 수식10 <br>
                         </td>
