@@ -10,7 +10,7 @@
     font-size: 12px;
 }
 
-sup{
+sup > a{
     font-size: 5px;
 }
 

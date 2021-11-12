@@ -1,0 +1,65 @@
+{
+    "doc_info":{
+        "title": "테일러 급수",
+        "doc_id": "123020",
+        "date": "2021-10-20",
+        "author":"2630 정승민",
+        "note":"example"
+    },
+
+    "math":{
+        "math_0": "x_0",
+        "math_1": " = \\displaystyle\\sum_{n=0}^{\\infty} a_n(x-x_0)^{n}",
+        "math_2": "(x_0, a_0, a_1, a_2, \\cdots \\in ",
+        "math_3": "\\mathbb{K}",
+        "math_4": "\\mathbb{K}",
+        "math_5": "\\mathbb{R}",
+        "math_6": "\\mathbb{C})",
+        "math_7": "x_0",
+        "math_8": "x_0",
+        "math_9": "x_0",
+        "math_10": "x_0"
+    },
+
+    "content":[
+        {
+            "summury":"1. 정의&$(ref:1)",
+            "text":[
+                "(중심 &$(math:math_0)의 멱급수) &$(math:math_1)  &$(math:math_2) &$(math:math_3), &$(math:math_4) 는 &$(math:math_5) 혹은 &$(math:math_6)&$(ref:1)",
+                "매끄러운 함수 &$(math:math_7)는 무한법 미분가능하다.",
+                "매끄러운 함수 &$(math:math_8), &$(math:math_9)가 주어질때",
+                "&$(math:math_10)의 테일러 급수는 다음과 같은 멱급수 ",
+                "&$(math:math_11) &$(ref:3) ",
+                "특히 &$(math:math_12)일 때의 테일러 급수를 매클로린 급수라 부른다."
+            ]
+        },
+        {
+            "summury":"2. 대표 예&$(ref:1)",
+            "text":[
+                "&$(math:math_13) &nbsp;&nbsp;&nbsp; &$(math:math_14)",
+                "&$(math:math_15) &nbsp;&nbsp;&nbsp; &$(math:math_16)",
+                "&$(math:math_17) &nbsp;&nbsp;&nbsp; &$(math:math_18)"
+            ]
+        },
+        {
+            "summury":"3. 유용성",
+            "text":[
+                "<ul>
+                    <li>근사값 구하기가 가능해짐 ex) $\sin (1) = 1-\\frac{1}{3!}+\\frac{1}{3!}-\cdots \, \\fallingdotseq \,0.841 \dots$</li>
+                    <li>분석에 용이함</li>
+                    <ul>
+                        <li>$\sin x$는 모든 항의 차수가 홀수 $\Leftrightarrow$ 기함수, 마찬가지로 $\cos x$는 우함수인 점</li>
+                        <li>$-\ln (1-x)$에서 각 항을 미분하면 $\\frac{1}{1-x}$와 같은 꼴 $\Leftrightarrow (-\ln (1-x))^{\prime} = \\frac{1}{1-x}$</li>
+                        <li>$\displaystyle\lim_{x \\rightarrow 0} \\frac{\sin x}{x} = \lim_{x \\rightarrow 0} \\frac{x-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\cdots}{x} = 1$</li>
+                    </ul>
+                </ul>"
+            ]
+        }
+    ],
+
+    "ref":[
+        {},
+        {},
+        {}
+    ]
+}
